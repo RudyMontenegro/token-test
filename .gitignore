@@ -49,6 +49,8 @@ backend/obj/
 *.snk
 
 # Config local con posibles secretos (si lo necesitas versionar, quita estas líneas)
+**/appsettings.json
+!**/appsettings.example.json
 **/appsettings.Development.json
 **/appsettings.Local.json
 **/appsettings.*.local.json
