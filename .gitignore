@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite / tooling caches
+.vite/
+coverage/
+.eslintcache
+
+# Environment variables (no subir secretos)
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# .NET / ASP.NET build outputs
+**/[Bb]in/
+**/[Oo]bj/
+backend/bin/
+backend/obj/
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Certificados/llaves (evitar subirlos)
+*.pfx
+*.snk
+
+# Config local con posibles secretos (si lo necesitas versionar, quita estas líneas)
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.*.local.json
+

@@ -1,0 +1,95 @@
+.home-container {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.home-header h1 {
+  color: #333;
+  font-size: 32px;
+}
+
+.logout-button {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.logout-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(245, 87, 108, 0.4);
+}
+
+.logout-button:active {
+  transform: translateY(0);
+}
+
+.home-content {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  min-height: 400px;
+}
+
+.user-info {
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.welcome-card {
+  text-align: center;
+}
+
+.welcome-card h2 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.user-details {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 30px;
+  margin-top: 20px;
+  text-align: left;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user-details p {
+  margin: 15px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+.user-details strong {
+  color: #333;
+  margin-right: 10px;
+}
+
+.loading-spinner {
+  text-align: center;
+  padding: 100px;
+  color: #666;
+  font-size: 18px;
+}
+
